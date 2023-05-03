@@ -1,0 +1,7 @@
+version: "3"
+services:
+    rabbit:
+        image: "rabbitmq_msg:3.8-m"
+        ports:
+            - "15672:15672"
+            - "5672:5672"
